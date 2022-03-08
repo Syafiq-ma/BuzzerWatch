@@ -30,28 +30,36 @@ Kelebihan : <br/>
 Kekurangan :<br/>
 Tidak bersifat open source <br/>
 Key Competitive Advantage & Unique Value :<br/>
-Menguasai market researcher<br/>
-Sering digunakan oleh peneliti dari rumpun sosial humaniora<br/>
-Memiliki algoritma SNA yang baik<br/>
+1. Menguasai market researcher<br/>
+2. Sering digunakan oleh peneliti dari rumpun sosial humaniora<br/>
+3. Memiliki algoritma SNA yang baik<br/>
+ 
+## KOMPETITOR 2<br/>
+Nama : Hashtag.org<br/>
+Jenis Kompetitor : Direct Competitors<br/>
+Jenis Produk : Data Analisis<br/>
+Target Customer : Masyarakat umum <br/>
+Kelebihan<br/>
+1. Kemudahan dalam mengakses<br/>
+2. Kelebihan dua<br/>
+Kekurangan<br/>
+2. Produk Berbayar<br/>
+3. Tampilan kurang menarik<br/>
+Key Competitive Advantage & Unique Value<br/>
+1. Mudah dan simpel untuk digunakan<br/>
+2. Layanan yang diberikan dapat dimunculkan secara cepat<br/>
 
 
-Nama
-MonkeyLearn
-Jenis Kompetitor
-Indirect
-Jenis Produk
-Model 
-Target Customer
-Industri Teknologi
-Kelebihan
-Kekurangan
-Data visualisasi yang menarik
-Sudah tersedia model
-dst
-Hanya tersedia bahasa inggris
-Produk Berbayar
-dst
-Key Competitive Advantage & Unique Value
-Mudah dan simpel untuk digunakan
-
-
+### KOMPETITOR 3 <br/>
+Nama : MonkeyLearn<br/>
+Jenis Kompetitor : Indirect<br/>
+Jenis Produk : Model <br/>
+Target Customer : Industri Teknologi<br/>
+Kelebihan<br/>
+1. Data visualisasi yang menarik<br/>
+2. Sudah tersedia model<br/>
+Kekurangan<br/>
+1. Hanya tersedia bahasa inggris<br/>
+2. Produk Berbayar<br/>
+Key Competitive Advantage & Unique Value<br/>
+1. Mudah dan simpel untuk digunakan<br/>
