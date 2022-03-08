@@ -5,4 +5,4 @@ Aplikasi yang digunakan untuk memantau aktivitas buzzer
 Ketua Kelompok :<br/>
 Anggota 1 :<br/>
 Anggota 2 :<br/>
-Anggota 3 :
+Anggota 3 : Syafiq Muhammad Alaudin - 19/444073/TK/49269
