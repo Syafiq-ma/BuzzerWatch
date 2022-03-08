@@ -1,37 +1,59 @@
-## Welcome to GitHub Pages
+#KABITA 03
 
-You can use the [editor on GitHub](https://github.com/Syafiq-ma/BuzzerWatch/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Anggota
+Ketua Kelompok : Muhammad Naufal Hakim - 19/440307/TK/48634<br/>
+Anggota 1 : Muhammad Firas Zahid Suryaatmaja - 19/439816/TK/48546<br/>
+Anggota 2 : Saskia Dwi Ulfah - 19/439822/TK/48552<br/>
+Anggota 3 : Syafiq Muhammad Alaudin - 19/444073/TK/49269<br/>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Project Senior Project TI 
+Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, 
+Universitas Gadjah Mada
 
-### Markdown
+## Ringkasan
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Nama Produk : BuzzerWatch <br/>
+Jenis Produk : Aplikasi Webiste <br/>
+Latar Belakang :  Menjelang pendaftaran pemilihan umum di tahun 2022, semakin banyak aktor politik yang memanfaatkan echo chamber di sosial media. Pemanfaatan echo-chamber tersebut memunculkan banyak buzzer di sosial media Twitter yang menyebarkan propaganda atau agenda dari suatu tokoh politik. Oleh karena itu kami menyusun sebuah aplikasi website yang dapat memudahkan masyarakat dalam mengetahui sentimen dari topik yang ada di sosial media twitter. <br/>
+Rumusan Masalah : <br/>
+1. Bagaimana bentuk platform yang dapat memudahkan masyarakat dalam mengetahui sentimen dari topik pembahasan di twitter?<br/>
+2. Apa saja jenis fitur yang dapat dimanfaatkan dalam platform tracker sentimen twitter tersebut?<br/>
+Ide solusi : Berdasarkan rumusan masalah yang telah kami paparkan, kami mengajukan suatu platform berbentuk aplikasi website dimana masyarakat dapat memantau suatu topik pembahasan pada media sosial twitter. Platform ini ditujukan agar masyarakat tidak terjebak pada echo-chamber yang di orkestrasi oleh buzzer<br/>
+Kompetitor : KOMPETITOR 1
+Nama : Drone Emprit
+Jenis Kompetitor : Direct Competitor
+Jenis Produk : Data Analisis
+Target Customer : Masyarakat Umum
+Kelebihan : 
+Publikasi disampaikan kedalam bahasa yang mudah dipahami
+Ditampilkan dalam sebuah aplikasi web yang dapat diakses masyarakat luas
+Kekurangan :
+Tidak bersifat open source 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+Key Competitive Advantage & Unique Value :
+Menguasai market researcher
+Sering digunakan oleh peneliti dari rumpun sosial humaniora
+Memiliki algoritma SNA yang baik
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+Nama
+MonkeyLearn
+Jenis Kompetitor
+Indirect
+Jenis Produk
+Model 
+Target Customer
+Industri Teknologi
+Kelebihan
+Kekurangan
+Data visualisasi yang menarik
+Sudah tersedia model
+dst
+Hanya tersedia bahasa inggris
+Produk Berbayar
+dst
+Key Competitive Advantage & Unique Value
+Mudah dan simpel untuk digunakan
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Syafiq-ma/BuzzerWatch/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
