@@ -19,22 +19,20 @@ Rumusan Masalah : <br/>
 1. Bagaimana bentuk platform yang dapat memudahkan masyarakat dalam mengetahui sentimen dari topik pembahasan di twitter?<br/>
 2. Apa saja jenis fitur yang dapat dimanfaatkan dalam platform tracker sentimen twitter tersebut?<br/>
 Ide solusi : Berdasarkan rumusan masalah yang telah kami paparkan, kami mengajukan suatu platform berbentuk aplikasi website dimana masyarakat dapat memantau suatu topik pembahasan pada media sosial twitter. Platform ini ditujukan agar masyarakat tidak terjebak pada echo-chamber yang di orkestrasi oleh buzzer<br/>
-Kompetitor : KOMPETITOR 1
-Nama : Drone Emprit
-Jenis Kompetitor : Direct Competitor
-Jenis Produk : Data Analisis
-Target Customer : Masyarakat Umum
-Kelebihan : 
-Publikasi disampaikan kedalam bahasa yang mudah dipahami
-Ditampilkan dalam sebuah aplikasi web yang dapat diakses masyarakat luas
-Kekurangan :
-Tidak bersifat open source 
-
-
-Key Competitive Advantage & Unique Value :
-Menguasai market researcher
-Sering digunakan oleh peneliti dari rumpun sosial humaniora
-Memiliki algoritma SNA yang baik
+### KOMPETITOR 1 <br/>
+Nama : Drone Emprit <br/>
+Jenis Kompetitor : Direct Competitor<br/>
+Jenis Produk : Data Analisis<br/>
+Target Customer : Masyarakat Umum<br/>
+Kelebihan : <br/>
+1. Publikasi disampaikan kedalam bahasa yang mudah dipahami<br/>
+2. Ditampilkan dalam sebuah aplikasi web yang dapat diakses masyarakat luas<br/>
+Kekurangan :<br/>
+Tidak bersifat open source <br/>
+Key Competitive Advantage & Unique Value :<br/>
+Menguasai market researcher<br/>
+Sering digunakan oleh peneliti dari rumpun sosial humaniora<br/>
+Memiliki algoritma SNA yang baik<br/>
 
 
 Nama
