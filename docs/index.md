@@ -68,38 +68,38 @@ Key Competitive Advantage & Unique Value<br/>
 
 ## LAB 2.3
 
-### Metodologi
+### Metodologi<br/>
 Agile <br/>
 
-### Alasan Pemilihan Metodologi
+### Alasan Pemilihan Metodologi<br/>
 Metode agile dinilai lebih sesuai dengan kebutuhan dan alur kerja tim. Dengan metodologi agile, proses pengerjaan proyek dapat bekerja dengan fleksibel di mana satu proses dapat berjalan paralel dengan proses lainnya. Ide dan perencanaan di awal tidak bersifat rigid sehingga inovasi di tengah pengerjaan proyek masih dapat diakomodasi. <br/>
 
-### A. Tujuan Dari Produk
+### A. Tujuan Dari Produk<br/>
 Memberikan analytics tool yang mudah dan terjangkau bagi masyarakat,  khususnya untuk memahami isu yang beredar di sosial media selama berlangsungnya rangkaian pemilihan umum. Produk ini bertujuan agar mengurangi efek echo-chamber yang disebabkan oleh buzzer/rekayasa bot menjelang diadakannya pemilihan umum. <br/>
 
-### B. Penggunaan Potensial Dari Produk
+### B. Penggunaan Potensial Dari Produk<br/>
 Pengguna potensial dari produk yang kami kembangkan adalah masyarakat Indonesia yang sedang mendekati musim pemilihan umum, dengan karakteristik sebagai berikut:<br/>
 Aktif menggunakan Twitter<br/>
 Aktif memberikan perhatian pada agenda politik<br/>
 Memiliki concern untuk membatasi diri dari paparan echo-chamber yang diakibatkan oleh aktivitas buzzer<br/>
 
-### C. Use Case Diagram
+### C. Use Case Diagram<br/>
 ![Use Case Diagram](https://drive.google.com/uc?export=view&id=1Q6-lRxxAr9cB92YE8x3CxQTbQ-SRlmPd)
 
-### D. Functional requirements
+### D. Functional requirements<br/>
 | FR | Deskripsi |
 | :---: | :---: |
 | Analysis The Hashtag | Website akan melakukan scraping tweet atau cuitan yang mengandung hashtag tertentu. Kemudian data cuitan yang telah diambil akan dilakukan sentiment analysis menggunakan cloud services. |
 | Analysis The Text | Website dapat menerima input text kemudian melakukan sentiment analysis terhadap input yang dimasukkan user. Tujuannya adalah jika user ingin mengetahui sentimen dari sebuah teks yang user dapatkan dari berbagai media sosial. |
 | Locate Topics | Website dapat melakukan lokasi dari mayoritas akun yang melakukan cuitan tertentu. |
 
-### E. Entity Relationship Diagram
+### E. Entity Relationship Diagram<br/>
 ![Entity Relationship Diagram](https://drive.google.com/uc?export=view&id=1ubnKGdBWV-kHa0FGiNUh4e3scl02uFTm)
 
-### F. Low Fidelity Wireframe
+### F. Low Fidelity Wireframe<br/>
 ![Low Fidelity Wireframe](https://drive.google.com/uc?export=view&id=1YYDL9Jk7FpfU-NpivL5LGxhANt2-PG9c)
 
-### G. Gantt-Chart pengerjaan proyek dalam kurun waktu 1 semester
+### G. Gantt-Chart pengerjaan proyek dalam kurun waktu 1 semester<br/>
 
 | Kegiatan | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
