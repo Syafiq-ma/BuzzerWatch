@@ -86,7 +86,7 @@ Memiliki concern untuk membatasi diri dari paparan echo-chamber yang diakibatkan
 ### C. Use Case Diagram<br/>
 ![Use Case Diagram](https://drive.google.com/uc?export=view&id=1Q6-lRxxAr9cB92YE8x3CxQTbQ-SRlmPd)
 
-### D. Functional requirements<br/>
+### D. Functional requirements
 | FR | Deskripsi |
 | :---: | :---: |
 | Analysis The Hashtag | Website akan melakukan scraping tweet atau cuitan yang mengandung hashtag tertentu. Kemudian data cuitan yang telah diambil akan dilakukan sentiment analysis menggunakan cloud services. |
