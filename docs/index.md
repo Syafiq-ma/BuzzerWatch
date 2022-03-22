@@ -111,3 +111,28 @@ Memiliki concern untuk membatasi diri dari paparan echo-chamber yang diakibatkan
 | Back-end Development | | xx | xx | xx | xx | xx | xx | xx | | | | |
 | Deploy Full Project | | | | | | | | xx | xx | xx | | |
 | Deploy Full Project | | | | | | | | | | | xx | xx |
+
+## Lab 3 Intro to Cloud & IaaS, PaaS, SaaS
+
+### Logic App
+
+![Logic App 1](https://drive.google.com/uc?export=view&id=10gDbpYZYtO5iCV1uQVoluHAb-5aoQ_y_)
+![Logic App 2](https://drive.google.com/uc?export=view&id=1_WstDHS6CDZJ4ei-qeaaFMa_Qg0FcV4g)
+![Logic App 3](https://drive.google.com/uc?export=view&id=1HaYEeHBAtcOGcdyF8Yo3w9pkyzy5dOH9)
+
+### Function App
+
+![Function App 1](https://drive.google.com/uc?export=view&id=1fEarMXyEPgs5g86llnoM6Jb_3OuLIAMT)
+![Function App 2](https://drive.google.com/uc?export=view&id=1L5fSyNRdS2fqKPgjK9p1JJDoirYOp5mB)
+
+### CosmosDB
+
+![CosmosDB 1](https://drive.google.com/uc?export=view&id=1nKJB-skdHE8d5y5NDTnU0BnjDuLZWR0-)
+![CosmosDB 2](https://drive.google.com/uc?export=view&id=13ldbcMgnrn_1ZFOk59GrM7evXi-8iiUO)
+
+### Integrasi
+
+![Integrasi 1](https://drive.google.com/uc?export=view&id=1V_32v7W2h2vi9yV_PgmESmI7EDGIZHB6)
+![Integrasi 2](https://drive.google.com/uc?export=view&id=1_dg6npvGRdQ1khuAXlz67JJUyRA1XguH)
+![Integrasi 3](https://drive.google.com/uc?export=view&id=1t7qujgjNTwMUNIwBQKv0H7fjiiF9psNw)
+![Integrasi 4](https://drive.google.com/uc?export=view&id=1WsrzozyWG33NVyrE4hBaCBHSYq8g2bRm)
