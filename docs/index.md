@@ -136,3 +136,16 @@ Memiliki concern untuk membatasi diri dari paparan echo-chamber yang diakibatkan
 ![Integrasi 2](https://drive.google.com/uc?export=view&id=1_dg6npvGRdQ1khuAXlz67JJUyRA1XguH)
 ![Integrasi 3](https://drive.google.com/uc?export=view&id=1t7qujgjNTwMUNIwBQKv0H7fjiiF9psNw)
 ![Integrasi 4](https://drive.google.com/uc?export=view&id=1WsrzozyWG33NVyrE4hBaCBHSYq8g2bRm)
+
+## Modul 4 - Virtual Network dan Load Balancing
+### Skema
+![Skema Komponen Layanan Azure](https://drive.google.com/uc?export=view&id=1Xw8BPb-Y9XsF6F__TIyVUznUBOfLZB7b)
+
+### Pemaparan
+Pada project ini, digunakan react based website yang dideploy pada layanan Netlify. React based website tersebut akan digunakan sebagai front-end untuk menerima input dari user. Setelah input dari user diterima, input tersebut diteruskan ke Azure App Service yang merupakan back-end aplikasi. Pada bagian back-end terdapat beberapa flow yang berlangsung:<br/>
+1. Logic App digunakan untuk menarik data dengan hashtag tertentu dari Twitter. Setelah itu, data disimpan di dalam CosmosDB. Data di dalam storage ini digunakan untuk training model machine learning (ML).<br/>
+2. ML akan digunakan untuk memprediksi data tweets yang sesuai dengan kriteria input dari user, lalu kemudian data prediksi tersebut dikirimkan kembali ke Azure App Service<br/>
+3. Dikarenakan data prediksi tingkat sentimen masih bersifat single data (prediksi per-baris) oleh karenanya diperlukan dahulu agregasi data pada Azure App Service <br/>
+4. Setelah dilakukan agregasi data, proses berikutnya adalah menampilkan diagram atau chart pada front-end (React).<br/>
+
+Sebagai catatan, project ini tidak menggunakan layanan virtual machine maupun load balancer dikarenakan efisiensi biaya pada proyek yang berskala kecil. Namun, kedua layanan tersebut sangat mungkin untuk digunakan jika kebutuhan pada proyek ini meningkat dan membutuhkan load atau skala yang lebih besar.
