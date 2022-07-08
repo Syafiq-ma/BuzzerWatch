@@ -87,11 +87,7 @@ Memiliki concern untuk membatasi diri dari paparan echo-chamber yang diakibatkan
 ![Use Case Diagram](https://drive.google.com/uc?export=view&id=1Q6-lRxxAr9cB92YE8x3CxQTbQ-SRlmPd)
 
 ### D. Functional requirements
-| FR | Deskripsi |
-| :---: | :---: |
-| Analysis The Hashtag | Website akan melakukan scraping tweet atau cuitan yang mengandung hashtag tertentu. Kemudian data cuitan yang telah diambil akan dilakukan sentiment analysis menggunakan cloud services. |
-| Analysis The Text | Website dapat menerima input text kemudian melakukan sentiment analysis terhadap input yang dimasukkan user. Tujuannya adalah jika user ingin mengetahui sentimen dari sebuah teks yang user dapatkan dari berbagai media sosial. |
-| Locate Topics | Website dapat melakukan lokasi dari mayoritas akun yang melakukan cuitan tertentu. |
+Analysis The Hashtag | Website akan melakukan scraping tweet atau cuitan yang mengandung hashtag tertentu. Kemudian data cuitan yang telah diambil akan dilakukan sentiment analysis menggunakan Pre Trained AI |
 
 ### E. Entity Relationship Diagram<br/>
 ![Entity Relationship Diagram](https://drive.google.com/uc?export=view&id=1ubnKGdBWV-kHa0FGiNUh4e3scl02uFTm)
@@ -142,10 +138,15 @@ Memiliki concern untuk membatasi diri dari paparan echo-chamber yang diakibatkan
 ![Skema Komponen Layanan Azure](https://drive.google.com/uc?export=view&id=1Xw8BPb-Y9XsF6F__TIyVUznUBOfLZB7b)
 
 ### Pemaparan
-Pada project ini, digunakan react based website yang dideploy pada layanan Netlify. React based website tersebut akan digunakan sebagai front-end untuk menerima input dari user. Setelah input dari user diterima, input tersebut diteruskan ke Azure App Service yang merupakan back-end aplikasi. Pada bagian back-end terdapat beberapa flow yang berlangsung:<br/>
-1. Logic App digunakan untuk menarik data dengan hashtag tertentu dari Twitter. Setelah itu, data disimpan di dalam CosmosDB. Data di dalam storage ini digunakan untuk training model machine learning (ML).<br/>
-2. ML akan digunakan untuk memprediksi data tweets yang sesuai dengan kriteria input dari user, lalu kemudian data prediksi tersebut dikirimkan kembali ke Azure App Service<br/>
-3. Dikarenakan data prediksi tingkat sentimen masih bersifat single data (prediksi per-baris) oleh karenanya diperlukan dahulu agregasi data pada Azure App Service <br/>
-4. Setelah dilakukan agregasi data, proses berikutnya adalah menampilkan diagram atau chart pada front-end (React).<br/>
-
+Pada project ini, digunakan react based website yang dideploy pada layanan Netlify. React based website tersebut akan digunakan sebagai front-end untuk menerima input dari user. Setelah input dari user diterima, input tersebut diteruskan ke Azure App Service yang merupakan back-end aplikasi. Pada bagian back-end terdapat beberapa flow yang berlangsung:
+Program python yang telah dideploy pada Azure Web Service akan memanggil Twitter API, untuk mendapatkan tweets berdasarkan query yang diberikan oleh user
+Kemudian python memanggil fungsi untuk melakukan proses pembersihan teks seperti menghilangkan hashtag, mengkonversi teks menjadi lowercase, agar hasil sentiment analysis menjadi akurat
+Setelah data dibersihkan, python akan memanggil Google Translator API untuk mentranslasikan teks tweet yang telah dibersihkan
+Pre Trained AI berbasis Valence Aware Dictionary Reasoner akan dipanggil untuk melakukan sentiment analisis. Kemudian data hasil sentiment analisis akan diubah menjadi json untuk diparsing ke front end.
+Setelah dilakukan parsing data ke front end, proses berikutnya adalah menampilkan diagram atau chart pada front-end (React).
 Sebagai catatan, project ini tidak menggunakan layanan virtual machine maupun load balancer dikarenakan efisiensi biaya pada proyek yang berskala kecil. Namun, kedua layanan tersebut sangat mungkin untuk digunakan jika kebutuhan pada proyek ini meningkat dan membutuhkan load atau skala yang lebih besar.
+
+### Deployment
+
+![Deployment 1](https://drive.google.com/uc?export=view&id=1Ku3KMERIaYXOqFurkxbWBlM1v4L7nvQ5)
+![Deployment 2](https://drive.google.com/uc?export=view&id=1P4lO-WBSDoOwMIzNHYxCDt9h9E_lTCu4)
