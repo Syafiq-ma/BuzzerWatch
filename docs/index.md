@@ -84,7 +84,7 @@ Aktif memberikan perhatian pada agenda politik<br/>
 Memiliki concern untuk membatasi diri dari paparan echo-chamber yang diakibatkan oleh aktivitas buzzer<br/>
 
 ### C. Use Case Diagram<br/>
-![Use Case Diagram](https://drive.google.com/uc?export=view&id=1Q6-lRxxAr9cB92YE8x3CxQTbQ-SRlmPd)
+![Use Case Diagram](https://drive.google.com/uc?export=view&id=1aHXZyiVCsNX4xpJbaMIY61j4H0GbmpoP)
 
 ### D. Functional requirements
 Analysis The Hashtag | Website akan melakukan scraping tweet atau cuitan yang mengandung hashtag tertentu. Kemudian data cuitan yang telah diambil akan dilakukan sentiment analysis menggunakan Pre Trained AI |
@@ -145,6 +145,14 @@ Setelah data dibersihkan, python akan memanggil Google Translator API untuk ment
 Pre Trained AI berbasis Valence Aware Dictionary Reasoner akan dipanggil untuk melakukan sentiment analisis. Kemudian data hasil sentiment analisis akan diubah menjadi json untuk diparsing ke front end.
 Setelah dilakukan parsing data ke front end, proses berikutnya adalah menampilkan diagram atau chart pada front-end (React).
 Sebagai catatan, project ini tidak menggunakan layanan virtual machine maupun load balancer dikarenakan efisiensi biaya pada proyek yang berskala kecil. Namun, kedua layanan tersebut sangat mungkin untuk digunakan jika kebutuhan pada proyek ini meningkat dan membutuhkan load atau skala yang lebih besar.
+
+### Software Architecture
+
+![Software Architecture](https://drive.google.com/uc?export=view&id=1jFlSfzRyT84eBBw3R-wk7ewnSTN8ceQq)
+
+### AI Architecture
+
+![AI Architecture](https://drive.google.com/uc?export=view&id=11Dvrn6GM-qQL6HyJxfww2hMKL8zUFwS3)
 
 ### Deployment
 
